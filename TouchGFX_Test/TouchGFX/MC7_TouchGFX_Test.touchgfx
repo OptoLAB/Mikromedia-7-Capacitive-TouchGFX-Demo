@@ -1,0 +1,687 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Components": [
+          {
+            "Color": {
+              "Red": 175,
+              "Green": 196,
+              "Blue": 68
+            },
+            "Alpha": 255,
+            "Name": "box1",
+            "X": 0,
+            "Y": 0,
+            "Width": 800,
+            "Height": 480,
+            "Type": "Box",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "InitialStatePressed": false,
+            "Pressed": "__designer\\Blue_Togglebars_Toggle_round_large_button_ON.png",
+            "Released": "__designer\\Blue_Togglebars_Toggle_round_large_button_OFF.png",
+            "Alpha": 255,
+            "Style": "Style4",
+            "Name": "toggleButton1",
+            "X": 336,
+            "Y": 51,
+            "Width": 128,
+            "Height": 38,
+            "Type": "ToggleButton",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "__designer\\Blue_Slider_Horizontal_Large_Slider_Round_back.png",
+            "BackgroundSelected": "__designer\\Blue_Slider_Horizontal_Large_Slider_Round_fill.png",
+            "Indicator": "__designer\\Blue_Slider_Horizontal_Large_Indicators_Slider_Round_nob.png",
+            "BackgroundX": 2,
+            "BackgroundY": 22,
+            "IndicatorPos": 0,
+            "IndicatorMax": 621,
+            "IndicatorMin": 0,
+            "ValueMax": 100,
+            "ValueMin": 0,
+            "InitValue": 0,
+            "Style": "Style1",
+            "Name": "slider1",
+            "X": 60,
+            "Y": 374,
+            "Width": 680,
+            "Height": 58,
+            "Type": "Slider",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId2",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4",
+            "Name": "buttonWithLabel2",
+            "X": 12,
+            "Y": 40,
+            "Width": 170,
+            "Height": 60,
+            "Type": "ButtonWithLabel",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "FileNameProgress": "__designer\\Blue_ProgressIndicators_fill_tiling_progress_indicator_fill_striped_wide_horizontal.png",
+            "AnchorAtZero": false,
+            "Direction": "Right",
+            "Alpha": 255,
+            "Style": "Style5",
+            "FileNameBackground": "__designer\\Blue_ProgressIndicators_bg_large_progress_indicator_bg_square_0_degrees.png",
+            "IndicatorPositionX": 2,
+            "IndicatorPositionY": 2,
+            "IndicatorPositionWidth": 400,
+            "IndicatorPositionHeight": 30,
+            "ProgressRangeMin": 0,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 0,
+            "ProgressRangeStepsMin": 0,
+            "ProgressInitialValue": 60,
+            "Name": "imageProgress1",
+            "X": 207,
+            "Y": 148,
+            "Width": 404,
+            "Height": 34,
+            "Type": "ImageProgress",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "TextId": "SingleUseId3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId4",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Name": "textArea1",
+            "X": 274,
+            "Y": 228,
+            "Width": 253,
+            "Height": 84,
+            "Type": "TextArea",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Pressed": "__designer\\Dark_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Dark_Buttons_Round_Edge_small.png",
+            "Alpha": 255,
+            "IconPressed": "__designer\\Blue_Icons_Next_arrow_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Next_arrow_32.png",
+            "IconX": 77,
+            "IconY": 15,
+            "IconHeight": 30,
+            "IconWidth": 17,
+            "Name": "buttonWithIcon1",
+            "X": 611,
+            "Y": 40,
+            "Width": 170,
+            "Height": 60,
+            "Type": "ButtonWithIcon",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "buttonWithIcon1",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2",
+              "Type": "ActionGotoScreen"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "buttonWithLabel2",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "FunctionName": "setRandomColor",
+              "Type": "ActionCustom"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "slider1",
+              "Type": "TriggerSliderValueChanged"
+            },
+            "Action": {
+              "FunctionName": "onSliderValueChange",
+              "Type": "ActionCustom"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "action1",
+            "HasValue": false
+          }
+        ],
+        "Name": "Screen1",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Color": {
+              "Red": 189,
+              "Green": 134,
+              "Blue": 49
+            },
+            "Alpha": 255,
+            "Name": "box1",
+            "X": 0,
+            "Y": 0,
+            "Width": 800,
+            "Height": 480,
+            "Type": "Box",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Alpha": 255,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "X": 9,
+                "Y": 9,
+                "LockFlexButtonToImageSize": false,
+                "ImageReleased": "smartphone1.png",
+                "ImagePressed": "smartphone1.png"
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "X": 0,
+                "Y": 0,
+                "Width": 148,
+                "Height": 148,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 194,
+                  "Blue": 0
+                },
+                "ColorPressed": {
+                  "Red": 138,
+                  "Green": 101,
+                  "Blue": 10
+                },
+                "ColorBorderReleased": {
+                  "Red": 118,
+                  "Green": 128,
+                  "Blue": 138
+                },
+                "ColorBorderPressed": {
+                  "Red": 128,
+                  "Green": 134,
+                  "Blue": 140
+                }
+              }
+            ],
+            "Name": "flexButton1",
+            "X": 342,
+            "Y": -170,
+            "Width": 148,
+            "Height": 148,
+            "Type": "FlexButton",
+            "Visible": true,
+            "Draggable": true,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Components": [
+              {
+                "Components": [
+                  {
+                    "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+                    "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+                    "Alpha": 255,
+                    "Style": "Style4",
+                    "Name": "button3",
+                    "X": 47,
+                    "Y": 58,
+                    "Width": 170,
+                    "Height": 60,
+                    "Type": "Button",
+                    "Visible": true,
+                    "Draggable": false,
+                    "Clickable": false,
+                    "Fadeable": false,
+                    "Moveable": false
+                  }
+                ],
+                "IsCacheableContainer": false,
+                "Name": "swipeContainer2Page1",
+                "X": 0,
+                "Y": 0,
+                "Width": 264,
+                "Height": 176,
+                "Type": "Container",
+                "Visible": true,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Components": [
+                  {
+                    "FileNameProgress": "__designer\\Blue_ProgressIndicators_fill_medium_circle_indicator_fill_full.png",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "CenterX": 52,
+                    "CenterY": 52,
+                    "Radius": 50,
+                    "LineWidth": 0,
+                    "StartAngle": 0,
+                    "EndAngle": 360,
+                    "CapPrecision": "Butt",
+                    "Alpha": 255,
+                    "Style": "Style5",
+                    "FileNameBackground": "__designer\\Blue_ProgressIndicators_bg_medium_circle_indicator_bg_full.png",
+                    "IndicatorPositionX": 0,
+                    "IndicatorPositionY": 0,
+                    "IndicatorPositionWidth": 0,
+                    "IndicatorPositionHeight": 0,
+                    "ProgressRangeMin": 0,
+                    "ProgressRangeMax": 100,
+                    "ProgressRangeSteps": 0,
+                    "ProgressRangeStepsMin": 0,
+                    "ProgressInitialValue": 60,
+                    "Name": "circleProgress1",
+                    "X": 80,
+                    "Y": 33,
+                    "Width": 104,
+                    "Height": 104,
+                    "Type": "CircleProgress",
+                    "Visible": true,
+                    "Draggable": false,
+                    "Clickable": false,
+                    "Fadeable": false,
+                    "Moveable": false
+                  }
+                ],
+                "IsCacheableContainer": false,
+                "Name": "swipeContainer2Page2",
+                "X": 0,
+                "Y": 0,
+                "Width": 264,
+                "Height": 176,
+                "Type": "Container",
+                "Visible": true,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Components": [
+                  {
+                    "Alpha": 255,
+                    "Selected": false,
+                    "Deselectable": false,
+                    "FileNameSelected": "__designer\\Blue_Check_buttons_Check_mark_active.png",
+                    "FileNameSelectedPressed": "__designer\\Blue_Check_buttons_Check_mark_normal.png",
+                    "FileNameUnselected": "__designer\\Blue_Check_buttons_Check_mark_inactive.png",
+                    "FileNameUnselectedPressed": "__designer\\Blue_Check_buttons_Check_mark_pressed.png",
+                    "Style": "Style4",
+                    "RadioButtonGroup": "radioButtonGroup1",
+                    "Name": "radioButton1",
+                    "X": 110,
+                    "Y": 64,
+                    "Width": 44,
+                    "Height": 44,
+                    "Type": "RadioButton",
+                    "Visible": true,
+                    "Draggable": false,
+                    "Clickable": false,
+                    "Fadeable": false,
+                    "Moveable": false
+                  }
+                ],
+                "IsCacheableContainer": false,
+                "Name": "swipeContainer2Page3",
+                "X": 0,
+                "Y": 0,
+                "Width": 264,
+                "Height": 176,
+                "Type": "Container",
+                "Visible": true,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              }
+            ],
+            "SwipeCutoff": 20,
+            "ShowPageIndicator": true,
+            "PageIndicatorX": 110,
+            "PageIndicatorY": 155,
+            "CenteredX": true,
+            "IndicatorImageNormal": "__designer\\Blue_PageIndicator_dot_indicator_small_normal.png",
+            "IndicatorImageHighlight": "__designer\\Blue_PageIndicator_dot_indicator_small_highlight.png",
+            "EndSwipeElasticWidth": 20,
+            "SelectedPage": "swipeContainer2Page2",
+            "Style": "Style1",
+            "IsCacheableContainer": false,
+            "Name": "swipeContainer2",
+            "X": 15,
+            "Y": 283,
+            "Width": 264,
+            "Height": 176,
+            "Type": "SwipeContainer",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "Name": "box2",
+            "X": 577,
+            "Y": 19,
+            "Width": 198,
+            "Height": 114,
+            "Type": "Box",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "FileNameFirst": "amimation_01.png",
+            "FileNameLast": "amimation_26.png",
+            "UpdateTicksInterval": 100,
+            "Alpha": 255,
+            "StartOnLoad": false,
+            "ReverseEnabled": false,
+            "LoopEnabled": false,
+            "AnimationEndedCallback": false,
+            "Name": "animatedImage1",
+            "X": 580,
+            "Y": 22,
+            "Width": 192,
+            "Height": 108,
+            "Type": "AnimatedImage",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "Alpha": 255,
+            "TextId": "TextStart",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4",
+            "Name": "buttonWithLabel1",
+            "X": 591,
+            "Y": 158,
+            "Width": 170,
+            "Height": 60,
+            "Type": "ButtonWithLabel",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Pressed": "__designer\\Dark_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Dark_Buttons_Round_Edge_small.png",
+            "Alpha": 255,
+            "IconPressed": "__designer\\Blue_Icons_Back_arrow_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Back_arrow_32.png",
+            "IconX": 77,
+            "IconY": 15,
+            "IconHeight": 30,
+            "IconWidth": 17,
+            "Name": "buttonWithIcon2",
+            "X": 30,
+            "Y": 40,
+            "Width": 170,
+            "Height": 60,
+            "Type": "ButtonWithIcon",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "buttonWithIcon2",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen1",
+              "Type": "ActionGotoScreen"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "X": 342,
+              "Y": 176,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 200,
+              "ActionComponent": "flexButton1",
+              "Type": "ActionMove"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Duration": 0,
+              "Type": "ActionDelay"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "buttonWithLabel1",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "Code": "if(animatedImage1.isRunning())\r\n{\r\n    animatedImage1.pauseAnimation();\r\n    buttonWithLabel1.setLabelText(TypedText(T_TEXTSTART));\r\n}\r\nelse\r\n{\r\n    animatedImage1.startAnimation(animatedImage1.isReverse(), false, true);\r\n    buttonWithLabel1.setLabelText(TypedText(T_TEXTSTOP));\r\n}",
+              "Type": "ActionExecuteCode"
+            }
+          }
+        ],
+        "Name": "Screen2",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 12000
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "TextEntries": [
+      {
+        "TextEntryId": "SingleUseId2",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId3",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId4",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "TextStop",
+        "IsResource": true
+      },
+      {
+        "TextEntryId": "TextStart",
+        "IsResource": true
+      }
+    ],
+    "Name": "MC7_TouchGFX_Test",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../MC7_TouchGFX_Test.ioc --platform=m7",
+    "PostGenerateTargetCommandOverride": "touchgfx update_project --project-file=../MC7_TouchGFX_Test.ioc --platform=m7",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape"
+  },
+  "Version": "4.13.0"
+}
